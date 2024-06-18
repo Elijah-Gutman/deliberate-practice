@@ -10,3 +10,10 @@ while greeting <= 5
     puts "hello"
     greeting = greeting + 1
 end
+
+# Were you able to easily solve the problem from memory?
+# If so, describe the next skill you will start to practice tomorrow.
+# If not, describe the part you got stuck on that requires more practice. 
+
+# I was able to do this one from Memory actuaklly, the skill I want to work on  next is creating my own classes 
+# Because I know I dont reacall how to do that from memory and thusly I need the practice :) 
