@@ -8,3 +8,11 @@ def example(word)
     word.upcase
 end
 puts example("hello")
+
+# Were you able to easily solve the problem from memory?
+# I was 30% of the way there, I did not recall where I was supposed to place certain
+# parts of the code
+# If so, describe the next skill you will start to practice tomorrow.
+# I need to keep working on custom classes and methods as they are not stickinb in  my head
+# If not, describe the part you got stuck on that requires more practice.
+# look above 
