@@ -6,3 +6,8 @@ def math(number1)
 end
 
 pp math(3)
+
+# I was able to do this one mostly from memory I had forgotten line 5 and thought
+# the multiplication would occur in the pp line something to the effect 
+# of pp (math)(number1 * number1) and i realized afterwards their would be no value for
+#  number1
