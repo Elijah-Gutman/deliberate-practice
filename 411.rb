@@ -21,5 +21,8 @@ pp square(4)
 
 
 # Were you able to easily solve the problem from memory?
+# No, I tried to do this mxing up classes and methods
+# But i am making improvments in actually remembering the syntax
 # If so, describe the next skill you will start to practice tomorrow.
+# I will continue to work on classes and methods as its my weak point
 # If not, describe the part you got stuck on that requires more practice.
