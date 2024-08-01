@@ -14,11 +14,9 @@ index1 = 0
 while index1 < number_pairs.length
   number_pairs2 = number_pairs[index1]
   index2 = 0
-  pp number_pairs2
   while index2 < number_pairs2.length
     number = number_pairs2[index2]
     flattened_numbers << number
-    pp number
     index2 = index2 + 1
     
   end
@@ -33,3 +31,4 @@ p flattened_numbers
 # knows as much about ruby as I do!
 # If so, describe the next skill you will start to practice tomorrow.
 # If not, describe the part you got stuck on that requires more practice.
+# I want to combine using a method and a nested loop to incease my understanding of both
