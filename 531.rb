@@ -14,6 +14,7 @@ index1 = 0
 while index1 < number_pairs.length
   number_pairs2 = number_pairs[index1]
   index2 = 0
+  p number_pairs2
   while index2 < number_pairs2.length
     number = number_pairs2[index2]
     flattened_numbers << number
@@ -22,7 +23,7 @@ while index1 < number_pairs.length
   end
   index1 = index1 + 1
 end
-p flattened_numbers
+# p flattened_numbers
 
 # Were you able to easily solve the problem from memory?
 # not at all, But i specifically looked into this as a means of gaining practice with nested
