@@ -1,6 +1,6 @@
 // Write a Product class that stores the name, price, and metadata, 
 // where metadata is a hash that stores additional information about the product.
-
+var metadata=[]
 class Product {
     constructor(name, price, metadata){
     this.name = name;
@@ -9,12 +9,15 @@ class Product {
     }
 }
 
-const product = new Product("Smartphone", 499.99, { brand: "Apple", color: "Silver" });
+const product = new Product("Smartphone", 499.99, {brand: "Apple", color: "Silver" });
 
-console.log("Product Details:");
-console.log(`Name: ${product.name}`);
-console.log(`Price: $${product.price}`);
-console.log(`Brand: ${product.metadata.brand}`);
-console.log(`Color: ${product.metadata.color}`);
+
+console.log(product);
+
+
+
+var hashly= {itch1: "itch", my: "my", bum: "bum"}
+
+console.log(hashly.itch1)
 
 

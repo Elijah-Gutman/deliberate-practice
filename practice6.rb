@@ -1,7 +1,7 @@
 # Write a Product class that stores the name, price, and metadata, 
 # where metadata is a hash that stores additional information about the product.
 
-
+metadata = []
 
 class Product 
   attr_writer :name, :price, :metadata
@@ -14,6 +14,15 @@ class Product
   @metadata = metadata
   end
 end
-product = Product.new("android"," 300$" ,{ brand: "pixel4a", color: "black" })
+product = Product.new("android"," 300$" ,{brand: "pixel4a", color: "black" })
 
-puts "Product Name: #{product.name}, Price: #{product.price}, brand: #{product.metadata[:brand]}, color: #{product.metadata[:color]}"
+puts "Product Name: #{product.name}, 
+Price: #{product.price}, brand: 
+#{product.metadata[:brand]}, 
+#color: #{product.metadata[:color]}"
+#
+
+
+hashly= [:itch1 => "itch", :my => "my", :bum => "bum"],[:something => "else"]
+
+puts hashly
